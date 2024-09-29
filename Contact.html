@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Players.html">Player information</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- ---about us content -->
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29338.815029223853!2d79.8962329395508!3d23.193843599999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b1d6ad3ed8e1%3A0x90849a690a1d490!2sDeendayal%20chowk%20i.s.b.t!5e0!3m2!1sen!2sin!4v1727536150749!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact">
+             <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Dindyal Bus Stand </h5>
+                    <p>Jabalpur Madhyapradesh </p>
+                </span>
+             </div>
+             <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 0123456789</h5>
+                    <p>Everytime available</p>
+                </span>
+             </div>
+             <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>✉️patlesatyam32@gmail.com</h5>
+                    <p>email us your query </p>
+                </span>
+             </div>
+            </div>
+            <div class="contact">
+    
+            </div>
+        </div>
+        
+    </section>
+
+
+
+    <!-- call to action---- -->
+
+
+
+
+
+    <!-- Footer--------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Hello our Website give you information about cricket players Biography and their records Runs in cricket
+            matches <br> centuries half centuries of the famous cricket players our website inform you about
+            international cricket organization </p>
+        <div class="icons">
+
+        </div>
+
+
+        <p>
+        <h4>Made By 💖<i class="fa fa-heart-o"></i>Satyam Patle🙏😊</h4> Player's Data from Wikipedia.org</p>
+    </section>
+
+
+
+
+
+
+    <!-- --------Javascript -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

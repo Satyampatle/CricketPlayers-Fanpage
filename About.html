@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Players.html">Player information</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ---about us content -->
+    <section class="about-us">
+
+<div class="row">
+    <div class="about-col">
+        <h1>International Cricket And ICC</h1>
+        <p>Hello our Website give you information about cricket players Biography and their records Runs in cricket matches <br> centuries half centuries of the famous cricket players our website inform you about  international cricket organization </p>
+        <a href="" class="hero-btn red-btn" >EXPLORE NOW</a>
+    </div>
+        <div class="about-col">
+          <img src="images/Bcci.jpg" >
+        </div>
+    
+</div>
+
+    </section>
+   
+    
+    
+    <!-- call to action---- -->
+
+
+    
+
+      
+    <!-- Footer--------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Hello our Website give you information about cricket players Biography and their records Runs in cricket matches <br> centuries half centuries of the famous cricket players our website inform you about  international cricket organization </p>
+       <div class="icons">
+        
+       </div>     
+  
+
+<p><h4>Made By 💖<i class="fa fa-heart-o"></i>Satyam Patle🙏😊</h4> Player's Data from Wikipedia.org</p>
+    </section>
+  
+    
+
+
+
+
+    <!-- --------Javascript -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
